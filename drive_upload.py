@@ -3,7 +3,6 @@ from __future__ import print_function
 from googleapiclient.discovery import build
 from httplib2 import Http
 from oauth2client import file, client, tools
-from apiclient import discovery
 from apiclient.http import MediaFileUpload
 import os, json
 from pathlib import Path
